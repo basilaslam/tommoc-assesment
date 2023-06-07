@@ -21,7 +21,7 @@ export const configurePassport = (passport: passport.PassportStatic) => {
       {
         clientID: process.env.GOOGLE_CLIENT_ID ?? '',
         clientSecret: process.env.GOOGLE_CLIENT_SECRET ?? '',
-        callbackURL: `${process.env.FRONTEND_URL ?? ''}/api/auth/google/callback`,
+        callbackURL: `${process.env.BACKEND_URL ?? ''}/api/auth/google/callback`,
         passReqToCallback: true,
       },
       async function (
