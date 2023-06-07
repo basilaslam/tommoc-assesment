@@ -17,9 +17,9 @@
     "removeComments": true,
     "skipLibCheck": true,
     "moduleResolution": "node",
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@src/*":["src/*"]
+      "@src/*": ["src/*"]
     }
   },
   "include": ["src"],

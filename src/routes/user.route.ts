@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-misused-promises */
 import express from 'express';
-import * as userController from '@src/controllers/user.controller';
+import * as userController from '../controllers/user.controller';
 import passport from 'passport';
-import { configurePassport } from '@src/utils/passport';
+import { configurePassport } from '../utils/passport';
 const router = express.Router();
 // Initialize Passport
 

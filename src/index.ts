@@ -1,6 +1,6 @@
 import express, { type Express } from 'express';
 import * as dotenv from 'dotenv';
-import userRouter from '@src/routes/user.route';
+import userRouter from './routes/user.route';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import passport from 'passport';

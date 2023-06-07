@@ -1,4 +1,4 @@
-import User, { type IUser } from '@src/models/user.model';
+import User, { type IUser } from '../models/user.model';
 import { type Request, type Response } from 'express';
 import * as bcrypt from 'bcrypt';
 import * as jwt from 'jsonwebtoken';

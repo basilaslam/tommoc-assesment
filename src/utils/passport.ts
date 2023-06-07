@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-misused-promises */
 import { type Request } from 'express';
 
-import User, { IUser } from '@src/models/user.model';
+import User, { IUser } from '../models/user.model';
 // eslint-disable-next-line @typescript-eslint/consistent-type-imports
 import passport, { Profile } from 'passport';
 import { type JwtPayload } from 'jsonwebtoken';
