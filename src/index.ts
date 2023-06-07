@@ -20,7 +20,7 @@ const options: cors.CorsOptions = {
 app.use(cors(options));
 
 const PORT = process.env.PORT ?? 3000;
-const mongodbURI = process.env.MONGO_URI;
+const mongodbURI = process.env.MONGO_URI ?? '';
 
 console.log(mongodbURI);
 app.use(express.json());

@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
-
-const mongoUri = process.env.MONGO_URI;
+import * as env from 'dotenv';
+env.config();
+const mongoUri = process.env.MONGO_URI ?? '';
 
 async function connect() {
   try {
